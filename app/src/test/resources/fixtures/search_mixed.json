@@ -1,0 +1,180 @@
+{
+  "contents": {
+    "sectionListRenderer": {
+      "contents": [
+        {
+          "musicShelfRenderer": {
+            "title": {
+              "runs": [
+                { "text": "Songs" }
+              ]
+            },
+            "contents": [
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Song One" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Artist A" },
+                            { "text": " • " },
+                            { "text": "Album X" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "3:45" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "thumbnail": {
+                    "musicThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://img.test/s-60.jpg",
+                            "width": 60,
+                            "height": 60
+                          },
+                          {
+                            "url": "https://img.test/s.jpg",
+                            "width": 120,
+                            "height": 120
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "playlistItemData": {
+                    "videoId": "vid1"
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Song One" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Artist A" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "playlistItemData": {
+                    "videoId": "vid1"
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Lo-fi Beats" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Lo-fi Girl" },
+                            { "text": " • " },
+                            { "text": "120 songs" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "thumbnail": {
+                    "musicThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://img.test/playlist.jpg",
+                            "width": 120,
+                            "height": 120
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "VLPL123"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "musicCardShelfRenderer": {
+            "title": {
+              "runs": [
+                { "text": "Album Y" }
+              ]
+            },
+            "subtitle": {
+              "runs": [
+                { "text": "Artist B" }
+              ]
+            },
+            "thumbnail": {
+              "musicThumbnailRenderer": {
+                "thumbnail": {
+                  "thumbnails": [
+                    {
+                      "url": "https://img.test/album.jpg",
+                      "width": 120,
+                      "height": 120
+                    }
+                  ]
+                }
+              }
+            },
+            "onTap": {
+              "navigationEndpoint": {
+                "browseEndpoint": {
+                  "browseId": "MPREb_album1"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "contents": {
+    "sectionListRenderer": {
+      "contents": [
+        {
+          "musicShelfRenderer": {
+            "contents": [
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Lo-fi Beats" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Lo-fi Girl" },
+                            { "text": " • " },
+                            { "text": "120 songs" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "thumbnail": {
+                    "musicThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://img.test/playlist.jpg",
+                            "width": 120,
+                            "height": 120
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "VLPL123"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

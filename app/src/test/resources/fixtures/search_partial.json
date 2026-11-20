@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "sectionListRenderer": {
+      "contents": [
+        {
+          "musicShelfRenderer": {
+            "contents": [
+              {
+                "musicResponsiveListItemRenderer": {
+                  "playlistItemData": {
+                    "videoId": "broken1"
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "No Id" }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "musicTwoRowItemRenderer": {
+                  "title": {
+                    "runs": [
+                      { "text": "Orphan" }
+                    ]
+                  }
+                }
+              },
+              {
+                "musicCardShelfRenderer": {
+                  "subtitle": {
+                    "runs": [
+                      { "text": "No title" }
+                    ]
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {}
+              },
+              {}
+            ]
+          }
+        },
+        {
+          "musicCardShelfRenderer": {}
+        },
+        {},
+        "unexpected-string"
+      ]
+    }
+  }
+}

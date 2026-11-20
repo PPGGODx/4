@@ -1,0 +1,223 @@
+{
+  "contents": {
+    "sectionListRenderer": {
+      "contents": [
+        {
+          "musicShelfRenderer": {
+            "contents": [
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Single One" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Song" },
+                            { "text": " • " },
+                            {
+                              "text": "Artist A",
+                              "navigationEndpoint": {
+                                "browseEndpoint": {
+                                  "browseId": "UCartistA"
+                                }
+                              }
+                            },
+                            { "text": " • " },
+                            { "text": "Album X" },
+                            { "text": " • " },
+                            { "text": "4:05" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "playlistItemData": {
+                    "videoId": "vidRealistic"
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Toofii Album" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Album" },
+                            { "text": " • " },
+                            { "text": "Toofii" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "MPREb_toofii"
+                    }
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Playlist Realistic" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Playlist" },
+                            { "text": " • " },
+                            { "text": "Lo-fi Girl" },
+                            { "text": " • " },
+                            { "text": "120 songs" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "VLPLreal"
+                    }
+                  }
+                }
+              },
+              {
+                "musicResponsiveListItemRenderer": {
+                  "flexColumns": [
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "Thai Playlist" }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "musicResponsiveListItemFlexColumnRenderer": {
+                        "text": {
+                          "runs": [
+                            { "text": "เพลย์ลิสต์" },
+                            { "text": " • " },
+                            { "text": "Lo-fi Girl" },
+                            { "text": " • " },
+                            { "text": "120 เพลง" }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "VLPLthai"
+                    }
+                  }
+                }
+              },
+              {
+                "musicTwoRowItemRenderer": {
+                  "title": {
+                    "runs": [
+                      { "text": "Two Row Playlist" }
+                    ]
+                  },
+                  "subtitle": {
+                    "runs": [
+                      { "text": "Playlist" },
+                      { "text": " • " },
+                      { "text": "Lo-fi Girl" },
+                      { "text": " • " },
+                      { "text": "42 songs" }
+                    ]
+                  },
+                  "thumbnailRenderer": {
+                    "musicThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://img.test/tworow.jpg",
+                            "width": 120,
+                            "height": 120
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "navigationEndpoint": {
+                    "browseEndpoint": {
+                      "browseId": "VLPLtworow"
+                    }
+                  }
+                }
+              },
+              {
+                "musicTwoRowItemRenderer": {
+                  "title": {
+                    "runs": [
+                      { "text": "Two Row Album" }
+                    ]
+                  },
+                  "subtitle": {
+                    "runs": [
+                      { "text": "Album" },
+                      { "text": " • " },
+                      { "text": "Artist C" }
+                    ]
+                  },
+                  "thumbnailRenderer": {
+                    "musicThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://img.test/tworow-album.jpg",
+                            "width": 120,
+                            "height": 120
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "onTap": {
+                    "navigationEndpoint": {
+                      "browseEndpoint": {
+                        "browseId": "MPREb_tworow"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
